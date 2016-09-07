@@ -1,0 +1,3 @@
+convert -colorspace rgb -density 300 -trim 2.pdf -quality 100 -append b.jpg
+
+compare -metric rmse -highlight-color green1 11.jpg 22.jpg bag_cmp.gif
